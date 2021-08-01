@@ -10573,3 +10573,30 @@ body.dark .actions .select.open {
 img{
   border-style: none !important;
 }
+@media (max-width: 768px){
+  .sidebar__head{
+    left: auto;
+    justify-content: end;
+    width: 100%;
+    padding: 0 30px;
+  }
+  .sidebar__close{
+    margin-left: auto !important;
+
+  }
+  .wallets__item.four{
+    margin: 0 !important;
+    width: 100% !important;
+    margin-bottom: 20px !important;
+  }
+  .sidebar__close.hidden{
+    display: none;
+  }
+  .flex-col-max{
+    flex-direction: column;
+  }
+  .main-h1{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}

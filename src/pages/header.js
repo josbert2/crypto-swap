@@ -9,7 +9,20 @@ const Header = () => {
                   
                 </button>
             </form>
-            <a class="header__logo" href="index-2.html"><img src="img/logo-sm.svg" alt="" /></a>
+            <a class="header__logo md:hidden hidden" href="index-2.html"><img src="img/logo-sm.svg" alt="" /></a>
+            <div class="md:hidden ml">
+            <a class="sidebar__logo" href="index-2.html" style={{ color: "rgb(255, 255, 255)", fontSize: "20px" }}>
+                <img class="sidebar__pic " src="https://proteodefi.com/wp-content/uploads/2021/06/proteo9-1.png" alt="" style={{ width: "65px" }} />
+            </a>
+            </div>
+            <button class="header__toggle mr-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+              <path d="M22 12H3" stroke="#11142d"></path>
+              <g stroke="#808191">
+                <path d="M22 4H13"></path>
+                <path opacity=".301" d="M22 20H13"></path>
+              </g>
+              <path d="M7 7l-5 5 5 5" stroke="#11142d"></path>
+            </svg></button>
             <div class="header__group">
                 <button class="operations__btn btn btn_blue btn_wide d-flex align-items-center">
                     <svg class="m-r-10" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000">
@@ -20,6 +33,7 @@ const Header = () => {
                     Conect Wallet
                 </button>
             </div>
+           
         </div>
 
         </div>

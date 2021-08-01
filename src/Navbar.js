@@ -9,7 +9,11 @@ const NavBar = () => {
             <div  className="sidebar">
                 <div  className="sidebar__head">
                     <a  className="sidebar__logo" style={{ color:"#fff", fontSize: "20px" }} href="index-2.html">
-                        <img  className="sidebar__pic " style={{width:"65px"}} src="https://proteodefi.com/wp-content/uploads/2021/06/proteo9-1.png" alt="" /></a>
+                        <img  className="sidebar__pic " style={{width:"65px"}} src="https://proteodefi.com/wp-content/uploads/2021/06/proteo9-1.png" alt="" />
+                    </a>
+                    <button class="sidebar__close">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M18.3 5.71c-.39-.39-1.02-.39-1.41 0L12 10.59 7.11 5.7c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"/></svg>
+                    </button>
                     <button  className="sidebar__toggle">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
                             <path d="M22 12H3" stroke="#11142d"></path>
@@ -20,7 +24,7 @@ const NavBar = () => {
                             <path d="M7 7l-5 5 5 5" stroke="#11142d"></path>
                         </svg>
                     </button>
-                    <button  className="sidebar__close">
+                    <button  className="sidebar__close md:block hidden">
                     
                     </button>
                 </div>

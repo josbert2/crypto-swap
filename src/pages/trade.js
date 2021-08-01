@@ -4,32 +4,19 @@ import steem from "../assets/img/logo/steem.png"
 import tokenbox from "../assets/img/logo/tokenbox.png"
 import sprite from "../assets/img/sprite.svg"
 import ethe from "../assets/img/ethe.png"
-
+import Header from "../pages/header"
 const Trade = () => {
     return (
         <div>
         <div  className="page">
             
             <div  className="page__content">
-                <div  className="header header_border">
-                    <form  className="header__search">
-                        <input  className="header__input" type="text" placeholder="Search" />
-                        <button  className="header__start">
-                            
-                        </button>
-                    </form>
-                   
-                    <div  className="header__group">
-                      <button  data-remodal-target="crypto-wallet"  className="operations__btn btn btn_blue btn_wide d-flex align-items-center">
-                        <svg  className="m-r-10" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#000000"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M21 7.28V5c0-1.1-.9-2-2-2H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-2.28c.59-.35 1-.98 1-1.72V9c0-.74-.41-1.37-1-1.72zM20 9v6h-7V9h7zM5 19V5h14v2h-6c-1.1 0-2 .9-2 2v6c0 1.1.9 2 2 2h6v2H5z"/><circle cx="16" cy="12" r="1.5"/></svg>
-                        Conect Wallet</button>
-                    </div>
-                    
-                </div>
+                <Header />
+                
                 <div  className="header " style={{ background: "url('https://changenow.io/images/coins-bg.svg')", backgroundPosition: "center", backgroundSize: "cover", width: "100%", backgroundRepeat: "no-repeat" }}>
                 
                 
-                    <div  className="grid grid-cols-2 w-full">
+                    <div  className="grid  grid-cols-1 md:grid-cols-2 w-full ">
                             <div  className="">
                                 <div  className="flex items-center">
                                     <h1  className="text-white text-6xl font-bold">Empieza a Tradear</h1>
@@ -37,7 +24,7 @@ const Trade = () => {
                                         <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0.772864 3.24846C0.457408 3.24846 0.173615 3.07952 0.0558748 2.82164C-0.0618654 2.56376 0.0100831 2.26871 0.237649 2.07621L2.46776 0.189733C2.76682 -0.0632443 3.23913 -0.0632443 3.53819 0.189733L5.7683 2.07621C5.99587 2.26871 6.06782 2.56376 5.95008 2.82164C5.83234 3.07952 5.54854 3.24846 5.23309 3.24846H3.77583L3.77583 11.2363C3.77583 11.6124 3.42982 11.9173 3.00299 11.9173C2.57616 11.9173 2.23015 11.6124 2.23015 11.2363V3.24846H0.772864Z" fill="#00C26F"></path><path d="M15.2271 8.75154C15.5426 8.75154 15.8264 8.92048 15.9441 9.17836C16.0619 9.43624 15.9899 9.73129 15.7624 9.92379L13.5322 11.8103C13.2332 12.0632 12.7609 12.0632 12.4618 11.8103L10.2317 9.92379C10.0041 9.73129 9.93219 9.43624 10.0499 9.17836C10.1677 8.92048 10.4515 8.75154 10.7669 8.75154H12.224L12.224 0.680991C12.224 0.30489 12.57 0 12.9969 0C13.4237 0 13.7697 0.30489 13.7697 0.680991L13.7697 8.75154H15.2271Z" fill="#00C26F"></path></svg>
                                     </div>
                                 </div>
-                                <div  className="text-white text-md font-light mt-14 w-2/3">
+                                <div  className="text-white text-center md:p-0 px-12 md:mb-0 mb-8 md:text-left text-md font-bold md:font-light mt-14 w-full md:w-2/3">
                                     Manera rápida y segura de intercambiar y comprar más de 150 criptomonedas. Soporte de chat en vivo 24/7.
 
 
